@@ -68,6 +68,13 @@ const EmpDetails = [
       "Post": "Business Analyst",
       "Salary": 40000,
       "Joining Date": "25-12-2022"
+    },
+    {
+      "EmpId": 110,
+      "Name": "Ishita",
+      "Post": "Business Analyst",
+      "Salary": 40000,
+      "Joining Date": "25-12-2022"
     }
   ]
 
