@@ -1,0 +1,52 @@
+.Dis{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.MainCard {
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #474747;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.namediv {
+    background-color: #007bff7a;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.name {
+    margin: 0;
+    font-size: 22px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #930000;
+    font-size: 16px;
+}
+
+.details:last-child {
+    border-bottom: none;
+}
+
+strong {
+    color: #ffffff;
+}
+
+.data {
+    margin: 0;
+    color: #fafafa;
+    font-weight: 500;
+}
+
