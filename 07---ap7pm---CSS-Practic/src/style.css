@@ -1,0 +1,13 @@
+.CY{
+    color: rgb(255, 255, 255);
+    background: #000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+body{
+    background-color: rgba(0, 224, 227, 0.719);
+}

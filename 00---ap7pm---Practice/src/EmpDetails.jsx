@@ -26,6 +26,48 @@ const EmpDetails = [
       "Post": "HR",
       "Salary": 30000,
       "Joining Date": "20-03-2022"
+    },    {
+      "EmpId": 104,
+      "Name": "Priya",
+      "Post": "HR",
+      "Salary": 30000,
+      "Joining Date": "20-03-2022"
+    },    {
+      "EmpId": 104,
+      "Name": "Priya",
+      "Post": "HR",
+      "Salary": 30000,
+      "Joining Date": "20-03-2022"
+    },    {
+      "EmpId": 104,
+      "Name": "Priya",
+      "Post": "HR",
+      "Salary": 30000,
+      "Joining Date": "20-03-2022"
+    },    {
+      "EmpId": 104,
+      "Name": "Priya",
+      "Post": "HR",
+      "Salary": 30000,
+      "Joining Date": "20-03-2022"
+    },    {
+      "EmpId": 104,
+      "Name": "Priya",
+      "Post": "HR",
+      "Salary": 30000,
+      "Joining Date": "20-03-2022"
+    },    {
+      "EmpId": 104,
+      "Name": "Priya",
+      "Post": "HR",
+      "Salary": 30000,
+      "Joining Date": "20-03-2022"
+    },    {
+      "EmpId": 104,
+      "Name": "Priya",
+      "Post": "HR",
+      "Salary": 30000,
+      "Joining Date": "20-03-2022"
     }
   ]
 
