@@ -79,8 +79,6 @@ const App = () => {
         </Card.Body>
       </Card>
 
-
-
       <Card style={{ width: '18rem' }}>
         {/* Correctly referencing the imported img4 */}
         <Card.Img variant="top" src={img4} />
@@ -122,6 +120,7 @@ const App = () => {
           <Button variant="primary">Go somewhere</Button>
         </Card.Body>
       </Card>
+
     </>
   );
 }
