@@ -21,7 +21,7 @@ const App = () => {
             <Nav.Link href="#features">Features</Nav.Link>
             <Nav.Link href="#pricing">Pricing</Nav.Link>
           </Nav>
-        </Container>
+        </Container>    
       </Navbar>
 
       {/* Carousel with imported images */}
