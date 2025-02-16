@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffcbcb;
+}
+
+#nav{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+
+}
+
+#li{
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: monospace;
+  padding: 10px;
+}
