@@ -1,55 +1,24 @@
-// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// 1. runs on every rander 
+// 2. no dependancy
 
+
+// import { useEffect } from "react";
 // import { useState } from "react";
-// const App = () => {
-//   const [color , setData] = useState("red")
+// const App = ()=>{
+//     const [count ,setCount] = useState(0)
 
-//   const SetGreen=()=>{
-//     setData("green")
-//   }
-//   return (
-//     <>
-//     <center>
-//         <h1 style={{color:color}}>The current color is : {color}</h1>
-//         <button onClick={SetGreen}>green</button>
-//         <button onClick={()=>{setData("orange")}}>orange</button>
-//     </center>
-//     </>
-//   );
-// };
+//     useEffect (()=>{
+//         setTimeout(() => {
+//             setCount(count+1)
+//         }, 3000);
+//     })
 
-// export default App;
-
-
-// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-
-// import { useState } from "react";
-
-// const App = () =>{
-
-// const [count , setCount] = useState(0);
-
-// const Decrement=()=>{
-//   if(count<=0)
-//   {
-//     alert("You can not Decrese :")
-//   }
-//   else{
-//     setCount(count-1)
-//   }
-// }
 //   return(
 //     <>
 //       <center>
-//         <h1>The Count : {count}</h1>
-
-//         <center>
-//           <button onClick={()=>{setCount(count+1)}}>Increment</button> 
-//           <button onClick={Decrement}>Decrement</button>
-//         </center>
+//           <h1>hello</h1>
+//           <h1>My Count : {count}</h1>
 //       </center>
 //     </>
 //   )
@@ -58,32 +27,26 @@
 // export default App;
 
 
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+// 1.  one dependancy but empty array
 
-// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-
-
-// Input Field Value Show Karna – Ek input field jisme likhne par wahi text
-// screen par dikhai de.const
-
-
+// import { useEffect } from "react";
 // import { useState } from "react";
 // const App = ()=>{
-//   const [data , setData] = useState("Vineet");
+//     const [count ,setCount] = useState(0)
 
-//   const SetInputData=(e)=>{
-//       setData(e.target.value)
-//   }
-
+//     useEffect (()=>{
+//         setTimeout(() => {
+//             setCount(count+1)
+//         }, 3000);
+//     },[])
 
 //   return(
 //     <>
 //       <center>
-//         <h1> Uaer  Entered Data : {data}</h1>
-//         Enter Your Name : <input type="text" onInput={SetInputData}/>  <br />
-//         {/* <button onClick={SetInputData}>Add Input in Head</button> */}
+//           <h1>hello</h1>
+//           <h1>My Count : {count}</h1>
 //       </center>
 //     </>
 //   )
@@ -96,3 +59,123 @@
 
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+// import { useEffect } from "react";
+// import { useState } from "react";
+// const App = ()=>{
+//     const [count ,setCount] = useState(0)
+
+//     const [multi , setMulti] = useState(0)
+
+//     useEffect (()=>{
+//         setMulti(count*2)
+//     },[count])
+
+//   return(
+//     <>
+//       <center>
+//           <h1>hello</h1>
+//           <h1>My Count : {count}</h1>
+//           <h1>My Count : {multi}</h1>
+
+//           <button onClick={()=>setCount(count+1)}>Click</button>
+//       </center>
+//     </>
+//   )
+// }
+
+// export default App;
+
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+                    // ++++  React Form Handling ++++ //
+
+// import { useState } from "react";
+// const App = ()=>{
+
+//     const [name , setName] = useState("")
+//     const [city , setCity] = useState("")
+
+//     const SubmitForm=()=>{
+//         console.log({name:name , city:city});
+        
+//     }
+//   return(
+//     <>
+//       <center>
+//             <h1>Applcation</h1>
+
+//             Enter Name : <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}} />
+//             <br /><br />
+//             Enter City : <input type="text" value={city} onChange={(e)=>{setCity(e.target.value)}}/>    
+
+//             <br /><br />
+
+//             <button onClick={SubmitForm}>Click</button>
+//       </center>
+//     </>
+//   )
+// }
+
+// export default App;
+
+
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+
+
+
+
+import { useState } from "react";
+const App = ()=>{
+
+    const [name , setName] = useState("")
+    const [city , setCity] = useState("")
+    const [number , setNumber] = useState("")
+    const [salary , setSalary] = useState("")
+
+    const SubmitForm=()=>{
+        console.log({name:name , city:city , empnumber:number , salary:salary});
+        
+    }
+  return(
+    <>
+      <center>
+            <h1>Applcation</h1>
+
+            Enter Name : <input type="text" value={name} onChange={(e)=>{setName(e.target.value)}} />
+            <br /><br />
+            Enter City : <input type="text" value={city} onChange={(e)=>{setCity(e.target.value)}}/>  
+            <br /><br />
+            Enter EmNumber : <input type="text" value={number} onChange={(e)=>{setNumber(e.target.value)}}/>  
+              
+              <br /><br />
+
+            Enter Salary : <input type="text" value={salary} onChange={(e)=>{setSalary(e.target.value)}}/>  
+
+  
+
+            <br /><br />
+
+            <button onClick={SubmitForm}>Click</button>
+      </center>
+    </>
+  )
+}
+
+export default App;
