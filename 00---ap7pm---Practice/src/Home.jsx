@@ -1,9 +1,9 @@
 const Home = () =>{
     return(
         <>
-           <h1>This Is the Home Page </h1>
+          <h1>Thise Is the Home Page</h1>
         </>
     )
 }
 
-export default Home
+export default Home;

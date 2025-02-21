@@ -1,39 +1,39 @@
 {
   "student": [
     {
-      "id": "1",
-      "rollno": 121,
-      "name": "Vineet",
-      "city": "Bhopal",
-      "fees": 34000
+      "id": "bac4",
+      "Name": "Vineet",
+      "age": "20",
+      "salary": "324234",
+      "city": "bhopal "
     },
     {
-      "id": "2",
-      "rollno": 122,
-      "name": "suman",
-      "city": "indore",
-      "fees": 44000
+      "id": "c7fa",
+      "Name": "Vineet",
+      "age": "20",
+      "salary": "324234",
+      "city": "bhopal"
     },
     {
-      "id": "3",
-      "rollno": 123,
-      "name": "ajay",
-      "city": "Bhopal",
-      "fees": 64000
+      "id": "b47b",
+      "Name": "Vineet",
+      "age": "20",
+      "salary": "324234",
+      "city": "bhopal "
     },
     {
-      "id": "4",
-      "rollno": 124,
-      "name": "riya",
-      "city": "Bhopal",
-      "fees": 74000
+      "id": "9539",
+      "Name": "Mohini",
+      "age": "20",
+      "salary": "100000",
+      "city": "Satna"
     },
     {
-      "id": "aad9",
-      "name": "Vineet Singraul",
-      "roll": "122",
-      "city": "bhopal",
-      "fees": "21000"
+      "id": "00f2",
+      "Name": "Ajay",
+      "age": "24",
+      "salary": "1200000",
+      "city": "Sehore"
     }
   ]
 }

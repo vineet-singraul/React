@@ -1,19 +1,27 @@
 import { Link, Outlet } from "react-router-dom";
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
 
 const Layout = () => {
-  return (
-    <>
-      <nav style={{ display: "flex", gap: "10px", marginBottom: "10px" }}>
-        <Link to="home">Home</Link>
-        <Link to="insert">Insert</Link>
-        <Link to="display">Display</Link>
-      </nav>
+    return (
+        <>
+            <Navbar bg="dark" data-bs-theme="dark">
+                <Container>
+                    <Navbar.Brand as={Link} to="/home">Navbar</Navbar.Brand>
+                    <Nav className="me-auto">
+                        <Nav.Link as={Link} to="/home">Home</Nav.Link>
+                        <Nav.Link as={Link} to="/insert">Insert</Nav.Link>
+                        <Nav.Link as={Link} to="/display">Display</Nav.Link>
+                    </Nav>
+                </Container>
+            </Navbar>
 
-      <hr />
-      <Outlet />
-      <hr />
-    </>
-  );
+            <hr />
+            <Outlet />
+            <hr />
+        </>
+    );
 };
 
 export default Layout;
