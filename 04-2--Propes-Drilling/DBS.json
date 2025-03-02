@@ -1,0 +1,103 @@
+{
+  "Employee": [
+    {
+      "id": "1",
+      "Name": "Vineet",
+      "Age": 20,
+      "Email": "vineetsingh20@gmail.com",
+      "City": "Satna",
+      "Salary": 23345564553,
+      "Post": "Developer"
+    },
+    {
+      "id": "2",
+      "Name": "Amit",
+      "Age": 25,
+      "Email": "amitsharma@gmail.com",
+      "City": "Delhi",
+      "Salary": 800000,
+      "Post": "Software Engineer"
+    },
+    {
+      "id": "3",
+      "Name": "Priya",
+      "Age": 28,
+      "Email": "priyaverma@gmail.com",
+      "City": "Mumbai",
+      "Salary": 900000,
+      "Post": "Project Manager"
+    },
+    {
+      "id": "4",
+      "Name": "Rahul",
+      "Age": 22,
+      "Email": "rahulgupta@gmail.com",
+      "City": "Pune",
+      "Salary": 600000,
+      "Post": "UI/UX Designer"
+    },
+    {
+      "id": "5",
+      "Name": "Neha",
+      "Age": 30,
+      "Email": "nehachopra@gmail.com",
+      "City": "Bangalore",
+      "Salary": 1200000,
+      "Post": "Team Lead"
+    },
+    {
+      "id": "6",
+      "Name": "Ankit",
+      "Age": 24,
+      "Email": "ankitjoshi@gmail.com",
+      "City": "Hyderabad",
+      "Salary": 750000,
+      "Post": "Backend Developer"
+    },
+    {
+      "id": "7",
+      "Name": "Swati",
+      "Age": 27,
+      "Email": "swatisen@gmail.com",
+      "City": "Chennai",
+      "Salary": 850000,
+      "Post": "QA Engineer"
+    },
+    {
+      "id": "8",
+      "Name": "Manish",
+      "Age": 26,
+      "Email": "manishkumar@gmail.com",
+      "City": "Kolkata",
+      "Salary": 950000,
+      "Post": "Full Stack Developer"
+    },
+    {
+      "id": "9",
+      "Name": "Pooja",
+      "Age": 29,
+      "Email": "poojamehta@gmail.com",
+      "City": "Indore",
+      "Salary": 1100000,
+      "Post": "HR Manager"
+    },
+    {
+      "id": "10",
+      "Name": "Ravi",
+      "Age": 23,
+      "Email": "raviverma@gmail.com",
+      "City": "Jaipur",
+      "Salary": 700000,
+      "Post": "Mobile App Developer"
+    },
+    {
+      "id": "11",
+      "Name": "Kiran",
+      "Age": 31,
+      "Email": "kiranpatel@gmail.com",
+      "City": "Ahmedabad",
+      "Salary": 1300000,
+      "Post": "Data Analyst"
+    }
+  ]
+}

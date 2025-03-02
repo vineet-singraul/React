@@ -1,21 +1,18 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./Layout";
-import Home from "./Home";
-import Insert from "./Insert";
-import Display from "./Display";
+import { useContext } from "react";
+import { CounterContext } from "./Contaxt";  // ✅ Fixed import
+import Counter from "./Counter";
 
 const App = () => {
+  const {count} = useContext(CounterContext);
+  
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="home" element={<Home />} />
-          <Route path="insert" element={<Insert />} />
-          <Route path="display" element={<Display/>}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <center>
+      <h1>Hello, this is App</h1>
+      <hr />
+      <h1>Count: {count}</h1>
+      <hr />
+      <Counter />
+    </center>
   );
 };
 

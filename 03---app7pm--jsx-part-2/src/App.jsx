@@ -6,9 +6,9 @@ const App = (props) => {
   return (
     
     <>
-      <Header/>
+      {/* <Header/>
       <Data/>
-      <Student/>
+      <Student/> */} 
       <Footer/>
     </>
 
