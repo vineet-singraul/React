@@ -1,18 +1,16 @@
+import AuthApp from "./AuthApp";
+import UnAuthApp from "./UnAuthApp";
 import { useContext } from "react";
-import { CounterContext } from "./Contaxt";  // ✅ Fixed import
-import Counter from "./Counter";
+import { myContext } from "./LoginContext";
 
 const App = () => {
-  const {count} = useContext(CounterContext);
-  
+  const { user } = useContext(myContext);
+
   return (
-    <center>
-      <h1>Hello, this is App</h1>
-      <hr />
-      <h1>Count: {count}</h1>
-      <hr />
-      <Counter />
-    </center>
+    <>
+      <h1>Welcome To App</h1>
+      {user.auth ? <AuthApp /> : <UnAuthApp />}
+    </>
   );
 };
 
