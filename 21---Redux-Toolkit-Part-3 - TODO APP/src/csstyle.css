@@ -1,0 +1,84 @@
+* {
+  color: #ffffff;
+}
+
+body {
+  background: linear-gradient(45deg, rgb(75, 75, 156), black);
+  background-repeat: no-repeat;
+  width: 90vw;
+  height: 100vh;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+.app-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  color: red;
+}
+
+button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.task-table th, .task-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  cursor: pointer;
+
+}
+
+.task-table th {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.task-table tr:nth-child(even) {
+  background-color: #005b7e;
+  color: white;
+}
+
+
+
+.completed-task {
+  text-decoration: line-through;
+  opacity: 0.6;
+  color: red;
+  cursor: pointer;
+}

@@ -1,17 +1,21 @@
-import AuthApp from "./AuthApp";
-import UnAuthApp from "./UnAuthApp";
 import { useContext } from "react";
-import { myContext } from "./LoginContext";
+import { LoginContext } from "./LoginContext";
+import UnAuthApp from "./UnAuthApp";
+import AuthApp from "./AuthApp";
 
 const App = () => {
-  const { user } = useContext(myContext);
+    const { user } = useContext(LoginContext);
 
-  return (
-    <>
-      <h1>Welcome To App</h1>
-      {user.auth ? <AuthApp /> : <UnAuthApp />}
-    </>
-  );
+    return (
+        <>
+            <center>
+                <h1>Welcome To App Page: {user?.user || "Guest"}</h1>
+                <hr /><br /><br />
+                {!user?.user ? <UnAuthApp /> : <AuthApp />}
+                <hr />
+            </center>
+        </>
+    );
 };
 
 export default App;

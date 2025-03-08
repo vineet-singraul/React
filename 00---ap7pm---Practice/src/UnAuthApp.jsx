@@ -1,21 +1,18 @@
-import { useState, useContext } from "react";
-import { myContext } from "./LoginContext";
-
+import { useState , useContext } from "react";
+import { LoginContext } from "./LoginContext";
 const UnAuthApp = () => {
-  const [val, setVal] = useState("");
-  const { login } = useContext(myContext);
+ 
+   const [user , setUser] = useState();
+   const {login} = useContext(LoginContext)
 
-  return (
+  return(
     <>
-      Enter Your name: 
-      <input 
-        type="text" 
-        value={val} 
-        onChange={(e) => setVal(e.target.value)} 
-      />
-      <button onClick={() => login(val)}>Login</button>
+     <center>
+        Enter Your Name : <input type="text" onChange={(e)=>{setUser(e.target.value)}} />
+        <button onClick={()=>{login(user)}}>Login</button>
+     </center>
     </>
-  );
-};
+  )
+}
 
 export default UnAuthApp;

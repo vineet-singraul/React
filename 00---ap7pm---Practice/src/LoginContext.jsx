@@ -1,23 +1,23 @@
 import { createContext, useState } from "react";
 
-export const myContext = createContext();
+export const LoginContext = createContext();
 
-const LoginContextProvider = ({ children }) => {
-  const [user, setUser] = useState({ name: "", auth: false });
+const ContextProvider = ({ children }) => {
+    const [user, setUser] = useState({ user: "" });
 
-  const login = (name) => {
-    setUser({ name: name, auth: true });
-  };
+    const login = (nm) => {
+        setUser({ user: nm });
+    };
 
-  const logout = () => {
-    setUser({ name: "", auth: false });
-  };
+    const logOut = () => {
+        setUser({ user: "" }); // Resets user on logout
+    };
 
-  return (
-    <myContext.Provider value={{ user, login, logout }}>
-      {children}
-    </myContext.Provider>
-  );
+    return (
+        <LoginContext.Provider value={{ user, login, logOut }}>
+            {children}
+        </LoginContext.Provider>
+    );
 };
 
-export default LoginContextProvider;
+export default ContextProvider;

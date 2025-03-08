@@ -1,15 +1,23 @@
 import { useContext } from "react";
-import { myContext } from "./LoginContext";
-
+import { LoginContext } from "./LoginContext";
+useContext
 const AuthApp = () => {
-  const { user, logout } = useContext(myContext);
-  
-  return (
-    <h1>
-      Welcome {user.name} 
-      <button onClick={() => logout()}>Logout</button>
-    </h1>
-  );
-};
+
+  const {user , logOut } = useContext(LoginContext)
+
+  return(
+    <>
+       <center>
+        <hr />
+         <h1>Hello This Is Log Out Page : </h1>
+         <br /><br />
+         <center> 
+           <button onClick={()=>{logOut()}}>Logout</button>
+         </center>
+         <hr />
+       </center>
+    </>
+  )
+}
 
 export default AuthApp;
