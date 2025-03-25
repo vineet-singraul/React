@@ -1,0 +1,64 @@
+{
+    "Students": [
+        {
+            "id": 1,
+            "name": "Vineet",
+            "email": "Vineet@gmail.com",
+            "location": "M.P Nager",
+            "number": 1234543254,
+            "b-code": "p-40",
+            "timing": "Evening",
+            "course": "Web Development"
+        },
+        {
+            "id": 2,
+            "name": "Amit",
+            "email": "Amit@gmail.com",
+            "location": "Indore",
+            "number": 9876543210,
+            "b-code": "p-41",
+            "timing": "Morning",
+            "course": "Data Science"
+        },
+        {
+            "id": 3,
+            "name": "Pooja",
+            "email": "Pooja@gmail.com",
+            "location": "Bhopal",
+            "number": 7654321098,
+            "b-code": "p-42",
+            "timing": "Afternoon",
+            "course": "Graphic Design"
+        },
+        {
+            "id": 4,
+            "name": "Rajesh",
+            "email": "Rajesh@gmail.com",
+            "location": "Jabalpur",
+            "number": 9123456780,
+            "b-code": "p-43",
+            "timing": "Evening",
+            "course": "Cyber Security"
+        },
+        {
+            "id": 5,
+            "name": "Suman",
+            "email": "Suman@gmail.com",
+            "location": "Gwalior",
+            "number": 9988776655,
+            "b-code": "p-44",
+            "timing": "Morning",
+            "course": "Artificial Intelligence"
+        },
+        {
+            "id": 6,
+            "name": "Deepak",
+            "email": "Deepak@gmail.com",
+            "location": "Satna",
+            "number": 8877665544,
+            "b-code": "p-45",
+            "timing": "Night",
+            "course": "Machine Learning"
+        }
+    ]
+}
