@@ -7,8 +7,93 @@ body{
     background: linear-gradient(90deg , rgb(99, 0, 86) ,rgb(8, 8, 95));
     font-family:Arial, Helvetica, sans-serif;
     color:rgb(0, 104, 104);
-    text-shadow: 1px 1px 2px rgb(89, 0, 255);
 }
 h1{
     color: #008854;
+}
+
+
+
+
+h1 {
+    color: #0aa8b7cd;
+}
+
+#InsertDiv {
+    width: 80vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: #00545a5f;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+#details label {
+    font-weight: bold;
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #950473;
+}
+
+#details input {
+    width:30vw;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #00885422;
+}
+
+#details{
+    width:30vw;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 150px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+#details {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+#details label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+#details select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #00809d72;
+    cursor: pointer;
+}
+
+/* Hover & Focus Effect */
+#details select:hover,
+#details select:focus {
+    border-color: #007bff;
+    outline: none;
 }
