@@ -9,21 +9,13 @@ const Insert = () => {
         let value = e.target.value;
 
         SetInpdata((values) => ({ ...values, [name]: value }));
-
-        console.log("Updated Data:", inpData); // Might not log latest data immediately
     };
 
     const handleSubmit = async () => {
         let api = "http://localhost:3000/Students";
-
-        try {
             let res = await axios.post(api, inpData);
             alert("Yes! Your Data Was Successfully Stored.");
-            SetInpdata({}); // Reset form after submission
-        } catch (error) {
-            console.error("Error inserting data:", error);
-            alert("Failed to store data.");
-        }
+            SetInpdata({}); 
     };
 
     return (

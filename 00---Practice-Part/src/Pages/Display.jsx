@@ -1,32 +1,58 @@
 import axios from "axios";
-import { useState , useEffect } from "react";
+import { useState, useEffect } from "react";
 const Display = () => {
 
-    const [data , setData] = useState({});
+    const [data, setData] = useState([]);
 
     const loadData = async () => {
         let api = "http://localhost:3000/Students";
-        let res = await axios.get(api ,data)
-        print(res.data)
+        let res = await axios.get(api, data)
+        setData(res.data)
     }
 
-    useEffect(()=>{
+    useEffect(() => {
         loadData()
-    },[])    
+    }, [])
 
-    const ANS = data.map((key)=>{
-        return(
+
+
+    const ANS = data.map((key) => {
+        return (
             <>
-                
+                <tr>
+                    <td>{key.Name}</td>
+                    <td>{key.Email}</td>
+                    <td>{key.Location}</td>
+                    <td>{key.Number}</td>
+                    <td>{key.BatchCode}</td>
+                    <td>{key.Course}</td>
+                </tr>
             </>
         )
     })
 
-    return(
+    return (
         <>
-           <center>
-              <h1>Thise Is Display Page :</h1>
-           </center>
+            <center>
+                <center>
+                    <h1>This Is Display Page:</h1>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Location</th>
+                                <th>Number</th>
+                                <th>BatchCode</th>
+                                <th>Course</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {ANS}
+                        </tbody>
+                    </table>
+                </center>
+            </center>
         </>
     )
 }

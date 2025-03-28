@@ -97,3 +97,111 @@ button:hover {
     border-color: #007bff;
     outline: none;
 }
+
+
+
+
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: left;
+    background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+    backdrop-filter: blur(10px); /* Glassmorphism effect */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    color: rgb(0, 104, 104);
+}
+
+th, td {
+    padding: 12px 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+th {
+    background-color: rgba(8, 8, 95, 0.8); /* Dark blue header */
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.1); /* Light transparent row */
+}
+
+tr:hover {
+    background-color: rgba(99, 0, 86, 0.2); /* Hover effect with pinkish tint */
+    transition: background 0.3s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #0aa8b7cd;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+tbody {
+    color: white;
+}
+
+thead th {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    table {
+        width: 95%;
+    }
+
+    th, td {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+
+.bin {
+    color: red;
+    cursor: pointer;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+}
+
+.bin:active {
+    transform: scale(0.9);
+    transition: all 0.8s;
+}
+
+
+input{
+    width: 20vw;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(155, 0, 216);
+    font-size: 17px;
+    background: linear-gradient(45deg , rgb(175, 36, 59),blue);
+    border-radius: 20px;
+    font-family: monospace;
+}
+
+button{
+    width: 7vw;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(155, 0, 216);
+    font-size: 17px;
+    background: linear-gradient(45deg , rgb(175, 36, 59),blue);
+    border-radius: 20px;
+    font-family: monospace;
+    margin: 10px;
+}
