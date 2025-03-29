@@ -1,18 +1,19 @@
-import Header from "./Header";
-import Body from "./Body";
-import Footer from "./Footer";
+import Student from "./Student";
+
+const clg = {
+    coll : "RGPV",
+    fee : 343434,
+    city : "Bhopal",
+    sub : "Python"
+}
+
 const App = () => {
     return(
         <>
-           <h1>This Is App Component : </h1> <br /> 
-           <br />
-           <Header/>
-           <br />
-           <Body/>
-           <br />
-           <Footer/>  
+           <h1>This Is App Component :</h1> <br /> <hr />
+           <Student nm={clg.coll} fm={clg.fee} sb={clg.city} subj={clg.sub}/> <hr />
         </>
-    )
+    );
 }
 
 export default App;
