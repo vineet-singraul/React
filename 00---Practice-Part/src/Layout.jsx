@@ -4,7 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 const Layout = () => {
-    const location = useLocation(); // Get current route
+    const location = useLocation(); 
 
     return (
         <>
