@@ -1,0 +1,14 @@
+{
+  "Students": [
+    {
+      "id": "7357",
+      "Name": "Mohni Panday vineet",
+      "Location": "Satna",
+      "BatchCode": "P-56",
+      "Course": "SEO",
+      "Email": "mohini@123gmail.com",
+      "Number": "12321321323",
+      "Timing": "Evening"
+    }
+  ]
+}
