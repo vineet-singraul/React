@@ -1,0 +1,112 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#Navbar {
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navMainDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logodiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logodiv img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.logoName {
+    font-size: 24px;
+    font-weight: 600;
+    color: #003d92;
+    margin-top: 10px;
+    border-bottom: 2px solid rgb(80, 0, 82);
+    text-shadow: 2px 2px 2px black;
+}
+
+/* Navigation Menu */
+.manuDiv {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.manuDiv li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #8a8787;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.manuDiv li:hover {
+    color: #f0f0f0;
+}
+
+/* User Section */
+.userSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgb(111, 0, 121);
+    border-radius: 30px;
+}
+
+.login {
+    margin: 10px;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+#User{
+  margin-top: 4px;
+}
+
+.login:hover {
+    color: #ff6600;
+}
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+    .navMainDiv {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .manuDiv {
+        flex-direction: column;
+        text-align: center;
+    }
+} */
+
