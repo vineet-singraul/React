@@ -44,32 +44,22 @@
 
 //  ------------------ TYPE - 2 --------------------
 
-// const data = {
-//   color : 'red',
-// }
-
-
-// const App = () => {
-//   return(
-//     <>
-//       <h1 style={data}>Thise App Of Reacrt</h1>
-//     </>
-//   )
-// }
-
-// export default App;
-
-
-
-//--------------------- TYPE - 3 External css ---------------- 
+const data = {
+  color : 'red',
+}
 
 
 const App = () => {
   return(
     <>
-      <h1>Thise App Of Reacrt</h1>
+      <h1 style={data}>Thise App Of Reacrt</h1>
     </>
   )
 }
 
 export default App;
+
+
+
+//--------------------- TYPE - 3 External css ---------------- 
+
