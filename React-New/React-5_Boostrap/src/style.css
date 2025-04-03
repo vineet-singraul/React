@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(45deg , rgb(188, 0, 197), rgb(0, 0, 221));
+}
+
+#div{
+    display:  flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
