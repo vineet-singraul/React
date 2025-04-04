@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(45deg , rgb(188, 0, 197), rgb(0, 0, 221));
+    width: 100vw;
+    height: 100vh;
+    color: azure;
+}
+
+h1{
+    color: aliceblue;
+}
+
+button{
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px 25px;
+    background: #0000009c;
+    color: antiquewhite;
+}

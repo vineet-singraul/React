@@ -8,17 +8,17 @@
       box-sizing: border-box;
       font-family: 'Poppins', sans-serif;
   }
-  
+
   #Navbar {
       width: 100%;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.81);
       padding: 15px 30px;
       position: sticky;
       top: 0;
       left: 0;
       z-index: 1000;
   }
-  
+
   .navMainDiv {
       display: flex;
       justify-content: space-between;
@@ -26,21 +26,21 @@
       max-width: 1200px;
       margin: 0 auto;
   }
-  
+
   /* Logo */
   .logodiv {
       display: flex;
       align-items: center;
       gap: 10px;
   }
-  
+
   .logodiv img {
       width: 50px;
       height: auto;
       border-radius: 50%;
       box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
-  
+
   .logoName {
       font-size: 24px;
       font-weight: 600;
@@ -49,33 +49,31 @@
       border-bottom: 2px solid rgb(80, 0, 82);
       text-shadow: 2px 2px 2px black;
   }
-  
+
   /* Hamburger */
-  .Ham-div{
-    display: none;
-      background-color: rgba(0, 0, 0, 0.597);
-      padding: 14px 14px;
-      border: 1px solid rgb(51, 0, 255);
-      border-radius: 50%;
+  .Ham-div {
+      display: none;
   }
-  .Ham-button{
+
+  .Ham-button {
       outline: none;
       border: none;
-      background-color: rgba(0, 0, 0, 0.297);
+      background-color: rgba(255, 255, 255, 0);
   }
-  #Hamburger{
-      font-size: 22px;
-      color: rgb(255, 0, 183);
-  }
-  
+
+
   /* Navigation Menu */
-  .manuDiv {
+  .manuDiv,
+  .hide {
       display: flex;
       gap: 20px;
       list-style: none;
       margin-top: 10px;
+      cursor: pointer;
   }
-  
+
+
+
   .manuDiv li {
       font-size: 18px;
       font-weight: 500;
@@ -83,20 +81,20 @@
       cursor: pointer;
       transition: color 0.3s ease;
   }
-  
-  
-  
+
+
+
   .manuDiv li:hover {
       color: #f0f0f0;
   }
-  
-  
+
+
   .userSection {
       display: flex;
       justify-content: space-around;
       align-items: center;
   }
-  
+
   .login {
       display: flex;
       gap: 8px;
@@ -109,11 +107,11 @@
       border-radius: 30px;
       padding: 5px 15px;
   }
-  
+
   #User {
       margin-top: 4px;
   }
-  
+
   .cartDiv {
       margin-left: 10px;
       cursor: pointer;
@@ -121,73 +119,132 @@
       border-radius: 30px;
       padding: 6px 7px;
   }
-  
+
   #Cart {
       color: #bc00c2;
       font-size: 20px;
   }
-  
-  .cartDiv:hover{
+
+  .cartDiv:hover {
       background: #000;
       transition: all 0.5s;
       color: rgb(255, 255, 255);
   }
-  
-  .cartDiv:hover > #Cart{
+
+  .cartDiv:hover>#Cart {
       color: rgb(0, 88, 250);
       transition: all 0.5s;
   }
-  
+
   /* Responsive Design */
   @media (max-width: 768px) {
-
-    .manuDiv, .userSection{
-        /* display: none; */
-    } 
-
-    .logodiv img{
-        width: 30px;
-        position: absolute;
-        top: 5px;
-        left: 31px;
-    }
-    .logoName{
-        font-size: 20px;
-        position: relative;
-        top: 18px;
-    }
-
-    .manuDiv{
-        position: absolute;
-        top: 190px;
-    }
-    .userSection{
-        position: relative;
-        top: 124px;
-        left: 27px;
-    }
-
-    .logodiv{
-        position: absolute;
-        width: 60vw;
-        left: 8px;
-        top: 3px;
-    }
+      #Navbar {
+          height: 70px;
+          z-index: 10000000000000;
+      }
 
       .navMainDiv {
           flex-direction: column;
           gap: 15px;
       }
-      .Ham-div{
-        position: absolute;
-        right: 20px;
-        display: block;
-        padding: 7px 8px;
+
+      .logodiv img {
+          width: 25px;
+          position: absolute;
+          top: 11px;
+          left: 31px;
       }
+
+      .logoName {
+          font-size: 18px;
+          position: relative;
+          top: 18px;
+      }
+
+      #Hamburger {
+          font-size: 20px;
+          color: rgba(243, 0, 190, 0.799);
+          animation: crossOut 0.5s ease-out;
+      }
+
+      @keyframes crossOut {
+        0% {
+            transform: rotate(-360deg) scale(0.3);
+            opacity: 0;
+        }
+
+        100% {
+            transform: rotate(0deg) scale(1);
+            opacity: 1;
+        }
+    }
+
+
+      @keyframes crossSpinIn {
+          0% {
+              transform: rotate(-360deg) scale(0.3);
+              opacity: 0;
+          }
+
+          100% {
+              transform: rotate(0deg) scale(1);
+              opacity: 1;
+          }
+      }
+
+      .cross {
+          animation: crossSpinIn 0.5s ease-out;
+          transform-origin: center;
+      }
+
+
+      .Ham-div {
+          position: absolute;
+          right: 20px;
+          top: 18px;
+          display: block;
+          padding: 7px 7px;
+          color: rgba(255, 0, 144, 0.665);
+          border: 1px solid rgba(241, 0, 225, 0.556);
+          background-color: rgba(0, 0, 0, 0.197);
+          border-radius: 50%;
+      }
+
       .manuDiv {
+          top: 60px;
+          position: absolute;
+          width: 100vw;
+          background: linear-gradient(45deg, black, rgba(250, 0, 221, 0.025));
           flex-direction: column;
           text-align: center;
+          padding: 10px;
+          transition: all 0.9s ease;
+          transform: translateX(0%);
+          opacity: 1;
+          visibility: visible;
+          z-index: 0;
+      }
+
+      .hide {
+          transform: translateX(-100%);
+          position: absolute;
+          width: 100vw;
+          text-align: center;
+          background: linear-gradient(45deg, black, rgba(250, 0, 221, 0.025));
+          flex-direction: column;
+          z-index: 0;
+      }
+
+      .userSection {
+          position: relative;
+          left: 27px;
+          top: 4px;
+      }
+
+      .logodiv {
+          position: absolute;
+          width: 60vw;
+          left: 8px;
+          top: 3px;
       }
   }
-  
-  
