@@ -1,10 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    background: linear-gradient(90deg , rgb(99, 0, 86) ,rgb(8, 8, 95));
-    font-family:Arial, Helvetica, sans-serif;
-    color:rgb(255, 0, 0);
-}
+  /* Import Google Font */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+      background: linear-gradient(90deg, rgb(99, 0, 86), rgb(8, 8, 95));
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(255, 0, 0);
+  }
