@@ -2,10 +2,10 @@
     "Product": [
       {
         "id": "1",
-        "img1":"pro1_0",
-        "img2":"pro1_1",
-        "img3" : "pro1_2",
-        "img4" : "pro1_3",
+        "img1":"pro1_0.png",
+        "img2":"pro1_1.png",
+        "img3" : "pro1_2.png",
+        "img4" : "pro1_3.png",
         "discription":"thise is the very good product for the woenns and also the man hare the best ware product find ",
         "purana_Price": 1234,
         "new_Price":599,

@@ -13,7 +13,7 @@
       width: 100%;
       box-shadow: 0 4px 10px rgb(0, 0, 0);
       padding: 15px 30px;
-      position: sticky;
+      /* position: sticky; */
       top: 0;
       left: 0;
       z-index: 1000;
@@ -71,7 +71,8 @@
   }
 
   /* Navigation Menu */
-  .manuDiv ,  .manuMobi{
+  .manuDiv,
+  .manuMobi {
       display: flex;
       gap: 20px;
       list-style: none;
@@ -84,7 +85,7 @@
       margin-top: 29px;
       cursor: pointer;
   }
- 
+
 
   .manuDiv li {
       font-size: 18px;
@@ -153,7 +154,9 @@
 
       #Navbar {
           height: 80px;
+          position: sticky;
       }
+      
 
       .manuDiv {
           display: none;
@@ -161,15 +164,16 @@
 
       .manuMobi {
           display: block;
-          background: linear-gradient(45deg, #000000, transparent);
+          background: linear-gradient(45deg, #1a0076, rgb(81, 1, 53));
           position: absolute;
           top: 50px;
           width: 100vw;
           padding: 10px;
           text-align: center;
           list-style: none;
-          height: 250px;
+          height: 200px;
           cursor: pointer;
+          font-size: 12px;
       }
 
       ul li {
@@ -195,6 +199,62 @@
           top: 56px;
           width: 100vw;
           padding: 10px;
+      }
+
+      .cross {
+          animation: crossSpinIN 0.5s ease-in;
+          transform-origin: center;
+      }
+
+      @keyframes crossSpinIN {
+          0% {
+              transform: rotate(0deg) scale(0);
+          }
+
+          50% {
+              transform: rotate(45deg) scale(0.8);
+          }
+
+          75% {
+              transform: rotate(90deg) scale(1);
+          }
+
+          100% {
+              transform: rotate(180deg);
+          }
+      }
+
+      #Hamburger {
+          animation: HaminOut 0.5s linear;
+          transform-origin: center;
+      }
+
+      @keyframes HaminOut {
+          0% {
+              transform: rotate(0deg) scale(0);
+          }
+
+          50% {
+              transform: rotate(45deg) scale(0.4);
+          }
+
+          75% {
+              transform: rotate(90deg) scale(0.8);
+          }
+
+          100% {
+              transform: rotate(180deg) scale(1);
+          }
+      }
+
+      .manuMobi{
+        animation: UlcomeIN 0.7s ease-in-out;
+      }
+
+      @keyframes UlcomeIN {
+         0%{
+            transform: translateX(-150%);
+         }
       }
 
       .userSection {
@@ -227,4 +287,11 @@
           flex-direction: column;
           text-align: center;
       }
+
+      .Hamburger {
+          transform: translateX(-100%);
+      }
+
+
+
   }
