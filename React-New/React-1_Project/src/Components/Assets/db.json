@@ -1,15 +1,467 @@
 {
-    "Product": [
-      {
-        "id": "1",
-        "img1":"pro1_0.png",
-        "img2":"pro1_1.png",
-        "img3" : "pro1_2.png",
-        "img4" : "pro1_3.png",
-        "discription":"thise is the very good product for the woenns and also the man hare the best ware product find ",
-        "purana_Price": 1234,
-        "new_Price":599,
-        "Product_name":"Saree"
-      }
-    ]
-  }
+  "Product": [
+    {
+      "id": "1",
+      "img1": "https://m.media-amazon.com/images/I/81u0kTDXAeL._SY741_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/61WIVvYdhRL._SY741_.jpg",
+      "img3": "https://m.media-amazon.com/images/I/61CyuIkNE5L._SY741_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/61ud09XJd5L._SY741_.jpg",
+      "discription": "Premium saree suitable for both festive and daily wear.",
+      "purana_Price": 1234,
+      "new_Price": 599,
+      "catagouray": "Woman",
+      "Product_name": "Saree",
+      "Property": [
+        {
+          "prop1": "value1",  
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "img1": "./pro2_0.png",
+      "img2": "pro2_1.png",
+      "img3": "pro2_2.png",
+      "img4": "pro2_3.png",
+      "discription": "Lightweight kurta for men, ideal for summer.",
+      "purana_Price": 1499,
+      "new_Price": 799,
+      "catagouray": "Man",
+      "Product_name": "Kurta",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "img1": "pro3_0.png",
+      "img2": "pro3_1.png",
+      "img3": "pro3_2.png",
+      "img4": "pro3_3.png",
+      "discription": "Casual wear t-shirt with soft cotton fabric.",
+      "purana_Price": 899,
+      "new_Price": 499,
+      "catagouray": "Man",
+      "Product_name": "T-Shirt",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "img1": "pro4_0.png",
+      "img2": "pro4_1.png",
+      "img3": "pro4_2.png",
+      "img4": "pro4_3.png",
+      "discription": "Beautiful floral dress for girls, ages 3-7.",
+      "purana_Price": 1099,
+      "new_Price": 699,
+      "catagouray": "Kids",
+      "Product_name": "Girl's Dress",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "img1": "pro5_0.png",
+      "img2": "pro5_1.png",
+      "img3": "pro5_2.png",
+      "img4": "pro5_3.png",
+      "discription": "Latest model smartphone with high-speed processor.",
+      "purana_Price": 24999,
+      "new_Price": 19999,
+      "catagouray": "Electronics",
+      "Product_name": "Smartphone",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "img1": "pro6_0.png",
+      "img2": "pro6_1.png",
+      "img3": "pro6_2.png",
+      "img4": "pro6_3.png",
+      "discription": "Fresh organic bananas in a bunch of 12.",
+      "purana_Price": 90,
+      "new_Price": 70,
+      "catagouray": "Grocery",
+      "Product_name": "Bananas",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "img1": "pro7_0.png",
+      "img2": "pro7_1.png",
+      "img3": "pro7_2.png",
+      "img4": "pro7_3.png",
+      "discription": "Colorful frock for toddler girls, easy to wash.",
+      "purana_Price": 799,
+      "new_Price": 449,
+      "catagouray": "Kids",
+      "Product_name": "Toddler Frock",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "img1": "pro8_0.png",
+      "img2": "pro8_1.png",
+      "img3": "pro8_2.png",
+      "img4": "pro8_3.png",
+      "discription": "Classic analog wristwatch for men.",
+      "purana_Price": 1999,
+      "new_Price": 1199,
+      "catagouray": "Man",
+      "Product_name": "Wrist Watch",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "img1": "pro9_0.png",
+      "img2": "pro9_1.png",
+      "img3": "pro9_2.png",
+      "img4": "pro9_3.png",
+      "discription": "Cotton leggings perfect for yoga or casual wear.",
+      "purana_Price": 499,
+      "new_Price": 299,
+      "catagouray": "Woman",
+      "Product_name": "Leggings",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "img1": "pro10_0.png",
+      "img2": "pro10_1.png",
+      "img3": "pro10_2.png",
+      "img4": "pro10_3.png",
+      "discription": "High quality basmati rice, 5kg pack.",
+      "purana_Price": 699,
+      "new_Price": 599,
+      "catagouray": "Grocery",
+      "Product_name": "Basmati Rice",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "img1": "pro11_0.png",
+      "img2": "pro11_1.png",
+      "img3": "pro11_2.png",
+      "img4": "pro11_3.png",
+      "discription": "Winter jacket with thermal lining.",
+      "purana_Price": 2999,
+      "new_Price": 1899,
+      "catagouray": "Man",
+      "Product_name": "Winter Jacket",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "img1": "pro12_0.png",
+      "img2": "pro12_1.png",
+      "img3": "pro12_2.png",
+      "img4": "pro12_3.png",
+      "discription": "LED bulb 9W for home use, energy saving.",
+      "purana_Price": 150,
+      "new_Price": 95,
+      "catagouray": "Electronics",
+      "Product_name": "LED Bulb",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "img1": "pro13_0.png",
+      "img2": "pro13_1.png",
+      "img3": "pro13_2.png",
+      "img4": "pro13_3.png",
+      "discription": "Protein-rich premium quality eggs (12 pcs).",
+      "purana_Price": 90,
+      "new_Price": 75,
+      "catagouray": "Grocery",
+      "Product_name": "Eggs",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "img1": "pro14_0.png",
+      "img2": "pro14_1.png",
+      "img3": "pro14_2.png",
+      "img4": "pro14_3.png",
+      "discription": "Designer handbag with elegant straps.",
+      "purana_Price": 2999,
+      "new_Price": 1799,
+      "catagouray": "Woman",
+      "Product_name": "Handbag",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "img1": "pro15_0.png",
+      "img2": "pro15_1.png",
+      "img3": "pro15_2.png",
+      "img4": "pro15_3.png",
+      "discription": "Rechargeable trimmer with long battery life.",
+      "purana_Price": 1899,
+      "new_Price": 999,
+      "catagouray": "Electronics",
+      "Product_name": "Trimmer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "img1": "pro16_0.png",
+      "img2": "pro16_1.png",
+      "img3": "pro16_2.png",
+      "img4": "pro16_3.png",
+      "discription": "Soft woolen cap for kids, winter essential.",
+      "purana_Price": 299,
+      "new_Price": 149,
+      "catagouray": "Kids",
+      "Product_name": "Woolen Cap",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "img1": "pro17_0.png",
+      "img2": "pro17_1.png",
+      "img3": "pro17_2.png",
+      "img4": "pro17_3.png",
+      "discription": "Formal shirt with crisp stitching.",
+      "purana_Price": 1399,
+      "new_Price": 799,
+      "catagouray": "Man",
+      "Product_name": "Formal Shirt",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "img1": "pro18_0.png",
+      "img2": "pro18_1.png",
+      "img3": "pro18_2.png",
+      "img4": "pro18_3.png",
+      "discription": "Bluetooth portable speaker with deep bass.",
+      "purana_Price": 2499,
+      "new_Price": 1699,
+      "catagouray": "Electronics",
+      "Product_name": "Bluetooth Speaker",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "img1": "pro19_0.png",
+      "img2": "pro19_1.png",
+      "img3": "pro19_2.png",
+      "img4": "pro19_3.png",
+      "discription": "Fresh cow ghee, 1L bottle.",
+      "purana_Price": 699,
+      "new_Price": 599,
+      "catagouray": "Grocery",
+      "Product_name": "Cow Ghee",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "img1": "pro20_0.png",
+      "img2": "pro20_1.png",
+      "img3": "pro20_2.png",
+      "img4": "pro20_3.png",
+      "discription": "Elegant saree with golden border.",
+      "purana_Price": 2999,
+      "new_Price": 1599,
+      "catagouray": "Woman",
+      "Product_name": "Designer Saree",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    },
+
+    {
+      "id": "21",
+      "img1": "pro21_0.png",
+      "img2": "pro21_1.png",
+      "img3": "pro21_2.png",
+      "img4": "pro21_3.png",
+      "discription": "Wireless mouse, ergonomic grip for long use.",
+      "purana_Price": 899,
+      "new_Price": 499,
+      "catagouray": "Electronics",
+      "Product_name": "Wireless Mouse",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ]
+    }
+  ]
+}
