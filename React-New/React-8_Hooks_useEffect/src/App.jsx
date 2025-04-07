@@ -1,20 +1,20 @@
-import { useState , useEffect } from "react"
+import { useState, useEffect } from "react"
 
-const App = ()=>{
+const App = () => {
 
-  useEffect(()=>{
+  const [count, Setcount] = useState(0)
+
+  useEffect(() => {
     setTimeout(() => {
-       count+1
+      count + 1
     }, 2000);
   })
 
-  const [count , Setcount] = useState(0)
- 
-  return(
+  return (
     <>
-       <center><br /><br />
-         <h1>count : {count}</h1>
-       </center>
+      <center><br /><br />
+        <h1>count : {count}</h1>
+      </center>
     </>
   )
 }
