@@ -53,7 +53,7 @@ const App = () => {
   return(
     <>
        <h1>Thise Is App </h1>
-      <h1 style={data}>Thise App Of Reacrt</h1>
+      <h1 style={data}>Thise App Of Reacrt :{data}</h1>
     </>
   )
 }
