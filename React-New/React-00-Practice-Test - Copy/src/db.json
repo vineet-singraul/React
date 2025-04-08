@@ -1,0 +1,52 @@
+{
+    "IMAGE":[
+        {
+            "id":1,
+            "img1":"https://m.media-amazon.com/images/I/71HQC60kXIL._SX569_.jpg",
+            "img2":"https://m.media-amazon.com/images/I/51hZAZBuBwL._SX569_.jpg",
+            "img3":"https://m.media-amazon.com/images/I/51L+I-dmJ1L._SX569_.jpg",
+            "img4":"https://m.media-amazon.com/images/I/51Oz4cBXHQL._SX569_.jpg",
+            "category":"woman"
+        },
+        {
+            "id":2,
+            "img1":"https://m.media-amazon.com/images/I/51OcIqpLAuL._SX569_.jpg",
+            "img2":"https://m.media-amazon.com/images/I/51mBeZ3jP7L._SX569_.jpg",
+            "img3":"https://m.media-amazon.com/images/I/51OcIqpLAuL._SX569_.jpg",
+            "img4":"https://m.media-amazon.com/images/I/51D70ufc-ZL._SX569_.jpg",
+            "category":"woman"
+        },
+        {
+           "id":3,
+           "img1":"https://m.media-amazon.com/images/I/61JRyxHUjCL._SX569_.jpg",
+           "img2":"https://m.media-amazon.com/images/I/71DnYJWhXOL._SX569_.jpg",
+           "img3":"https://m.media-amazon.com/images/I/71s6jNUSUyL._SX569_.jpg",
+           "img4":"https://m.media-amazon.com/images/I/71Srgmr65oL._SX569_.jpg" ,
+           "category":"woman"
+        },
+        {
+            "id":4,
+            "img1":"https://m.media-amazon.com/images/I/51Kxt-6J6+L._SY879_.jpg",
+            "img2":"https://m.media-amazon.com/images/I/71b-rp7hdqL._SY741_.jpg",
+            "img3":"https://m.media-amazon.com/images/I/51z2+pN6pxL._SY741_.jpg",
+            "img4":"https://m.media-amazon.com/images/I/61DhklKT9dL._SY741_.jpg" ,
+            "category":"man"
+         },
+         {
+            "id":5,
+            "img1":"https://m.media-amazon.com/images/I/61hwsMYQZqL._SX569_.jpg",
+            "img2":"https://m.media-amazon.com/images/I/61prtlSwk5L._SX569_.jpg",
+            "img3":"https://m.media-amazon.com/images/I/61Z8-5P+TPL._SX569_.jpg",
+            "img4":"https://m.media-amazon.com/images/I/91O+bheFNDL._SX569_.jpg" ,
+            "category":"man"
+         },
+         {
+            "id":6,
+            "img1":"https://m.media-amazon.com/images/I/41OpwJRO+yL._SX679_.jpg",
+            "img2":"https://m.media-amazon.com/images/I/41TzHG9CYZL._SX679_.jpg",
+            "img3":"https://m.media-amazon.com/images/I/51hsTqgnKQL._SX679_.jpg",
+            "img4":"https://m.media-amazon.com/images/I/41OpwJRO+yL._SX679_.jpg" ,
+            "category":"man"
+         }
+    ]
+}
