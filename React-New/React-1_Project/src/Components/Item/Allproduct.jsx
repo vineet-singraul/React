@@ -1,5 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
+import { GiShoppingCart } from "react-icons/gi";
+import "./Allproduct.css"
 const Allproduct = () => {
 
     const [allData, SetallData] = useState([])
@@ -17,17 +19,38 @@ const Allproduct = () => {
     const HomeData = allData.map((key) => {
         return (
             <>
-                <div id="Card-div">
-                    <div className="top-div">
-                    <img src={key.img1} alt="" />
+                <div class="card" id="cardiii">
+                    <div class="card-image">
+                        <img src={key.img1} alt="Product Image" />
                     </div>
-                    <div className="buttom-div">
-                        <p className="detail">{key.discription}</p>
-                        <div className="price-details">
-                            <s className="Cross-price">{key.purana_Price}</s>
-                            <p className="real-price">{key.new_Price}</p>
+
+                    <div class="card-thumbnails">
+                        <img src={key.img2} alt="" />
+                        <img src={key.img3} alt="" />
+                        <img src={key.img4} alt="" />
+                    </div>
+
+                    <div class="card-details">
+                        <div class="detail-row">
+                            <strong>Category:</strong>
+                            <span>{key.catagouray}</span>
                         </div>
-                        <button className="add-to-cart">Add to cart</button>
+                        <div class="detail-row">
+                            <strong>Product:</strong>
+                            <span>{key.Product_name}</span>
+                        </div>
+                        <div class="detail-row price">
+                            <s>₹{key.purana_Price}</s>
+                            <span>₹{key.new_Price}</span>
+                        </div>
+                        <div class="description">
+                            <p>{key.discription}</p>
+                        </div>
+                    </div>
+
+                    <div class="card-footer">
+                        <button>Add To Cart</button>
+                        <span class="cart-icon">🛒</span>
                     </div>
                 </div>
             </>
@@ -37,9 +60,10 @@ const Allproduct = () => {
 
     return (
         <>
-            <div id="ContainerDiv">
-              {HomeData}
+            <div class="card-container">
+               {HomeData}
             </div>
+
         </>
     )
 }
