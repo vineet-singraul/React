@@ -1,0 +1,32 @@
+{
+  "Student": [
+    {
+      "id": "1",
+      "name": "Vineet",
+      "city": "Bhopal",
+      "number": 32423423,
+      "fees": 324234
+    },
+    {
+      "id": "9296",
+      "name": "Vineet Singraul",
+      "city": "Unchehara",
+      "num": "234324234324",
+      "fee": "234234234"
+    },
+    {
+      "id": "922b",
+      "name": "Vineet Singraul",
+      "city": "Unchehara",
+      "num": "234324234324",
+      "fee": "234234234"
+    },
+    {
+      "id": "3e92",
+      "name": "Anmol",
+      "City": "Satna",
+      "Number": "435843658743",
+      "Fees": "34550"
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "Product": [
+    {
+      "id": "1",
+      "img1": "https://m.media-amazon.com/images/I/81u0kTDXAeL._SY741_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/61WIVvYdhRL._SY741_.jpg",
+      "img3": "https://m.media-amazon.com/images/I/61CyuIkNE5L._SY741_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/61ud09XJd5L._SY741_.jpg",
+      "img5": "https://m.media-amazon.com/images/I/61ud09XJd5L._SY741_.jpg",
+      "img6": "https://m.media-amazon.com/images/I/61ud09XJd5L._SY741_.jpg",
+      "discription": "Premium saree suitable for both festive and daily wear.",
+      "purana_Price": 1234,
+      "new_Price": 599,
+      "catagouray": "Woman",
+      "Product_name": "Saree",
+      "offer":"50% offer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ],
+      "discription2":"Premium saree suitable for both festive and daily wear."
+    },
+    {
+      "id": "2",
+      "img1": "https://m.media-amazon.com/images/I/819u5-ALUxL._SY741_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/81zeRWxzLEL._SY741_.jpg",
+      "img3": "https://m.media-amazon.com/images/I/81G54b9a18L._SY741_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/71vD3cvuwhL._SY741_.jpg",
+      "img5": "https://m.media-amazon.com/images/I/819u5-ALUxL._SY741_.jpg",
+      "img6": "https://m.media-amazon.com/images/I/71vD3cvuwhL._SY741_.jpg",
+      "discription": "Premium saree suitable for both festive and daily wear.",
+      "purana_Price": 5999,
+      "new_Price": 3999,
+      "catagouray": "Woman",
+      "Product_name": "PIKHAM Art Silk Saree with Jacquard",
+      "offer":"30% offer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ],
+      "discription2":" Banarasi Style Weave | Zari Border AND Zari Base | Elegant Traditional Saree | Festive | Timeless Indian Attire "
+    },
+    {
+      "id": "3",
+      "img1": "https://m.media-amazon.com/images/I/61SEiNhEVzL._SY741_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/61544fQCZQL._SX569_.jpg",
+      "img3": "https://m.media-amazon.com/images/I/61rrehJaL+L._SX569_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/61NKV-A7KoL._SX569_.jpg",
+      "img5": "https://m.media-amazon.com/images/I/61SEiNhEVzL._SY741_.jpg",
+      "img6": "https://m.media-amazon.com/images/I/61V8Rc6IJfL._SX569_.jpg",
+      "discription": "Sugathari Women's Pure Kanjivaram Silk Saree Banarasi Silk.",
+      "purana_Price": 3999,
+      "new_Price": 2999,
+      "catagouray": "Woman",
+      "Product_name": "PIKHAM Art Silk Saree with Jacquard ",
+      "offer":"60% offer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ],
+      "discription2":" Sugathari Women's Pure Kanjivaram Silk Saree Banarasi Silk Saree With Blouse Piece (SAM PARI S-7)| Elegant Traditional Saree | Festive | Timeless Indian Attire "
+    },
+    {
+      "id": "4",
+      "img1": "https://m.media-amazon.com/images/I/71kh27MQabL._SY741_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/61lePtqMnLL._SY741_.jpg",
+      "img3": "https://m.media-amazon.com/images/I/61Z3D0ZLYWL._SY741_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/61n2PWtnBzL._SY741_.jpg",
+      "img5": "https://m.media-amazon.com/images/I/71Wnjaxr8cL._SY741_.jpg",
+      "img6": "https://m.media-amazon.com/images/I/81lMnl7PtML._SY741_.jpg",
+      "discription": "Fabric - Premium Cotton, Pre-Washed for ",
+      "purana_Price": 3999,
+      "new_Price": 2999,
+      "catagouray": "man",
+      "Product_name": "PIKHAM Art Silk Saree with Jacquard ",
+      "offer":"60% offer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ],
+      "discription2":"extremely soft finish and No Shrinkage Post Washinge "
+    },
+    {
+      "id": "5",
+      "img1": "https://m.media-amazon.com/images/I/51eU9wZBwpL._SY741_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/51YagaScxWL._SY741_.jpg",
+      "img3": "https://m.media-amazon.com/images/I/51NZ9blW0iL._SY741_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/51bu6Ec62sL._SY741_.jpg",
+      "img5": "https://m.media-amazon.com/images/I/51RgFI8u1FL._SY741_.jpg",
+      "img6": "https://m.media-amazon.com/images/I/51r+6lhBH9L._SY741_.jpg",
+      "discription": "Fabric - Premium Cotton, Pre-Washed for ",
+      "purana_Price": 799,
+      "new_Price": 599,
+      "catagouray": "man",
+      "Product_name": "IndoPrimo Men's Stylish Solid Satin Casual  ",
+      "offer":"20% offer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ],
+      "discription2":"FINIVO FASHION Textured Shirts for Men || Casual Shirt for Men || Shirt for Men|| Men Stylish Shirt || Men Fancy Shirt || Men Full Sleeve Shirt || Plain Shirts for Men "
+    },
+    {
+      "id": "6",
+      "img1": "https://m.media-amazon.com/images/I/51BVXl4sLqL._SY741_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/51e16rLajKL._SY741_.jpg",
+      "img3": "https://m.media-amazon.com/images/I/51h1ZfRezNL._SY741_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/51SO+uR+poL._SY741_.jpg",
+      "img5": "https://m.media-amazon.com/images/I/51yn92oL9fL._SY741_.jpg",
+      "img6": "https://m.media-amazon.com/images/I/81v+uG6tJuL._SX679_.jpg",
+      "discription": "Fabric - Premium Cotton, Pre-Washed for ",
+      "purana_Price": 699,
+      "new_Price": 599,
+      "catagouray": "man",
+      "Product_name": "IndoPrimo Men's Stylish Solid Satin Casual  ",
+      "offer":"10% offer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ],
+      "discription2":"FINIVO FASHION Textured Shirts for Men || Casual Shirt for Men || Shirt for Men|| Men Stylish Shirt || Men Fancy Shirt || Men Full Sleeve Shirt || Plain Shirts for Men Washinge "
+    },
+    {
+      "id": "7",
+      "img1": "https://m.media-amazon.com/images/I/61BB89gHYsL._SY741_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/614DYAwnToL._SY741_.jpg",
+      "img3": "https://m.media-amazon.com/images/I/61z9-PpANFL._SY741_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/61PYPicZwRL._SY741_.jpg",
+      "img5": "https://m.media-amazon.com/images/I/81KpsFdzDWL._SY741_.jpg",
+      "img6": "https://m.media-amazon.com/images/I/51L25vbvExL._SY741_.jpg",
+      "discription": "Fabric - Men's Regular Fit Poly Popcorn Casual Shirt ",
+      "purana_Price": 499,
+      "new_Price": 299,
+      "catagouray": "man",
+      "Product_name": "Satin Casual Men's Regular Fit Poly Popcorn ",
+      "offer":"60% offer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ],
+      "discription2":"FINIVO FASHION Textured Shirts for Men || Casual Shirt for Men || Shirt for Men|| "
+    },
+    {
+      "id": "8",
+      "img1": "https://m.media-amazon.com/images/I/613tBW6o-2L._SY879_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/61f4ZD1PtWL._SY741_.jpg",
+      "img3": "https://m.media-amazon.com/images/I/615AbdQY6eL._SY741_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/71Ao1+zmCuL._SY741_.jpg",
+      "img5": "https://m.media-amazon.com/images/I/51iLwzCNopL._SY741_.jpg",
+      "img6": "https://m.media-amazon.com/images/I/51iLwzCNopL._SY741_.jpg",
+      "discription": "Fabric - Men's Regular Fit Poly  ",
+      "purana_Price": 499,
+      "new_Price": 299,
+      "catagouray": "man",
+      "Product_name": "IndoPrimo Men's Stylish Solid Satin Casual Men's ",
+      "offer":"60% offer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ],
+      "discription2":"Peter England Men's Checkered Casual Everyday Full Sleeve Shirt  "
+    },
+    {
+      "id": "9",
+      "img1": "https://m.media-amazon.com/images/I/71IXThTV2QL._SY879_.jpg",
+      "img2": "https://m.media-amazon.com/images/I/51q+xype7IL.jpg",
+      "img3": "https://m.media-amazon.com/images/I/71IitALw4nL._SY741_.jpg",
+      "img4": "https://m.media-amazon.com/images/I/71Fl2nKCb6L._SY741_.jpg",
+      "img5": "https://m.media-amazon.com/images/I/61RLuqWvO3L._SY741_.jpg",
+      "img6": "https://m.media-amazon.com/images/I/612wEP71T7L._SY741_.jpg",
+      "discription": "GRECIILOOKS Shirt for Man  ",
+      "purana_Price": 499,
+      "new_Price": 399,
+      "catagouray": "man",
+      "Product_name": "IndoPrimo Men's Stylish Solid Satin Casual Men's  ",
+      "offer":"60% offer",
+      "Property": [
+        {
+          "prop1": "value1",
+          "prop2": "value2",
+          "prop3": "value3",
+          "prop4": "value4",
+          "prop5": "value5",
+          "prop6": "value6"
+        }
+      ],
+      "discription2":"GRECIILOOKS Shirt for Man | Men's Regular Fit Casual Shirt  "
+    }
+  ]
+}
