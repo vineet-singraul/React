@@ -37,7 +37,6 @@ const App =()=>{
     Setmulti(count*2)
   },[count])
 
-
   return(
     <>
       <center>
