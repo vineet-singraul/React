@@ -7,7 +7,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const Layout = () => {
     return (
         <>
-            <Navbar bg="dark" data-bs-theme="dark">
+            <Navbar bg="dark" data-bs-theme="dark" id="nav" >
                 <Container>
                     <Navbar.Brand as={Link} to="/">Navbar</Navbar.Brand>
                     <Nav className="me-auto">
@@ -19,6 +19,7 @@ const Layout = () => {
                     </Nav>
                 </Container>
             </Navbar>
+            retertertret
 
             <hr size="4" color="red" /><br /><br />
 
