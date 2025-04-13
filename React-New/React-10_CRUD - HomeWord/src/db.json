@@ -1,39 +1,25 @@
 {
   "Employee": [
     {
-      "id": "1",
-      "Name": "Vineet",
-      "City": "Bhopal",
-      "Designation": "Devlaoper",
-      "Salary": 324234
-    },
-    {
-      "id": "a7b7",
-      "Name": "Mohni Panday",
-      "Designation": "Programmer",
+      "id": "cbec",
+      "Name": "vineet",
+      "Designation": "Devloper",
       "City": "Satna",
-      "Salary": "340000"
+      "Salary": "21000"
     },
     {
-      "id": "5403",
-      "Name": "Anmol",
+      "id": "d0cc",
+      "Name": "Mohni Panday vineet",
+      "Designation": "Devloper",
+      "City": "Satna",
+      "Salary": "80000"
+    },
+    {
+      "id": "d0ef",
+      "Name": "Vineet Singraul",
       "Designation": "SSC GD",
       "City": "Jablpur",
-      "Salary": "700000"
-    },
-    {
-      "id": "5ab9",
-      "Name": "Ajay",
-      "Designation": "Devloper",
-      "City": "Sihor",
-      "Salary": "21000"
-    },
-    {
-      "id": "1735",
-      "Name": "Gaorav",
-      "Designation": "Devloper",
-      "City": "Sihor",
-      "Salary": "21000"
+      "Salary": "44460"
     }
   ]
 }
