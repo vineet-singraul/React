@@ -1,54 +1,64 @@
-import { useState } from "react"
-import axios from "axios"
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import axios from 'axios';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
 
 const Insert = () => {
-  const [input, Setinput] = useState({})
 
-  const handleInput = (e) => {
-    let name = e.target.name;
-    let value = e.target.value;
-    Setinput((values) => ({ ...values, [name]: value }))
-  }
+    const [input , Setinput] = useState("")
 
-  const handleSubmit = async () => {
-    let api = "http://localhost:3000/Employee";
-    let response = await axios.post(api, input)
-    toast.success("Data inserted successfully!");
-    Setinput({});
-  }
+    const handleInput = (e) => {
+       let name = e.target.name;
+       let value = e.target.value;
+       Setinput((values)=>({...values , [name]:value}))
+    }
 
-  return (
-    <>
-      <h1>This Is the Insert Page</h1>
-      <center>
-        <div>
-          <ToastContainer />
-        </div>
-        <div className="form-container">
-          <div className="form-group">
-            <input type="text" placeholder="Your Name" name="Name" onChange={handleInput} />
-          </div>
+    const handleInsert = async () => {
+        let api = "http://localhost:3000/Emp";
+        let res = await axios.post(api , input)
+        alert("Data Insert Succesfully !!! ")
+    }
 
-          <div className="form-group">
-            <input type="text" placeholder="Designation" name="Designation" onChange={handleInput} />
-          </div>
 
-          <div className="form-group">
-            <input type="text" placeholder="Your City" name="City" onChange={handleInput} />
-          </div>
+    return (
+        <>
+            <center>
+                <h1>Thise Is Insert section</h1>
 
-          <div className="form-group">
-            <input type="text" placeholder="Your Salary" name="Salary" onChange={handleInput} />
-          </div>
+                <Form>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Emp No</Form.Label>
+                        <Form.Control type="text" onChange={handleInput} name='empno' placeholder="Enter employee Number" />
+                    </Form.Group>
 
-          <button onClick={handleSubmit}>Insert Data</button>
-        </div>
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Emp Name</Form.Label>
+                        <Form.Control type="text" onChange={handleInput} name='empname' placeholder="Enter employee Name" />
+                    </Form.Group>
 
-      </center>
-    </>
-  )
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Emp City</Form.Label>
+                        <Form.Control type="text" onChange={handleInput} name='empcity' placeholder="Enter employee City" />
+                    </Form.Group>
+
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Emp Desigantion</Form.Label>
+                        <Form.Control type="text" onChange={handleInput} name='empdegignation' placeholder="Enter employee Desigantion" />
+                    </Form.Group>
+
+                    <Form.Group className="mb-3" controlId="formBasicEmail">
+                        <Form.Label>Emp Salary</Form.Label>
+                        <Form.Control type="text" onChange={handleInput} name='empsalary' placeholder="Enter employee Salary" />
+                    </Form.Group>
+
+
+                    <Button variant="primary" type="submit" onClick={handleInsert}>
+                        Submit
+                    </Button>
+                </Form>
+            </center>
+        </>
+    )
 }
 
 export default Insert

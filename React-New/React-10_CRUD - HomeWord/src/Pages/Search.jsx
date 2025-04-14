@@ -1,58 +1,67 @@
-import axios from "axios"
-import { useState , useEffect } from "react"
+import axios from 'axios';
+import { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+import Table from 'react-bootstrap/Table'; // ✅ Add this import
 
 const Search = () => {
 
-  const [inp , Setinp] = useState("")
-  const [ser , Setser] = useState([])
+    const [input, Setinput] = useState("");
+    const [myData, SetmyData] = useState([]); // ✅ Initialize as array
 
-  const handleSearch = async () => {
-    let api = `http://localhost:3000/Employee/?Name=${inp}`;
-    let res = await axios.get(api); 
-    Setser(res.data);     
-  };
+    const handleSearch = async (e) => {
+        e.preventDefault();
+        let api = `http://localhost:3000/Emp/?empno=${input}`;
+        let res = await axios.get(api);
+        SetmyData(res.data);
+    };
 
-  const ANS = ser.map((key)=>{
-    return(
-      <>
-        <tr>
-          <td>{key.Name}</td>
-          <td>{key.City}</td>
-          <td>{key.Designation}</td>
-          <td>{key.Salary}</td>
-        </tr>
-      </>
-    )
-  })
-
+    const ANS = myData.map((key, index) => {
+        return (
+            <tr key={index}>
+                <td>{key.empno}</td>
+                <td>{key.empname}</td>
+                <td>{key.empcity}</td>
+                <td>{key.empdegignation}</td>
+                <td>{key.empsalary}</td>
+            </tr>
+        );
+    });
 
     return (
-      <>
+        <>
+            <center>
+                <h1>This Is Search Component</h1>
+                <Form onSubmit={handleSearch}>
+                    <Form.Group className="mb-3" controlId="formSearch" style={{ width: 500 }}>
+                        <Form.Control
+                            type="search"
+                            placeholder="Enter Emp No"
+                            onChange={(e) => Setinput(e.target.value)}
+                        />
+                    </Form.Group>
+                    <Button type="submit">
+                        Submit
+                    </Button>
+                </Form>
 
-        <center>
-        <h1>Thise Is the Search Page</h1>
-        <input type="text" id="imp" placeholder="Enter for search" onChange={(e)=>{Setinp(e.target.value)}}/> 
-        <button id="ser" onClick={handleSearch}>Search</button>
+                <Table striped bordered hover>
+                    <thead>
+                        <tr>
+                            <th>Emp Id</th>
+                            <th>Emp Name</th>
+                            <th>Emp City</th>
+                            <th>Emp Designation</th>
+                            <th>Emp Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {ANS}
+                    </tbody>
+                </Table>
+            </center>
+        </>
+    );
+};
 
-
-        <table border="1">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>City</th>
-              <th>Designation</th>
-              <th>Salary</th>
-
-            </tr>
-          </thead>
-          <tbody>
-            {ANS}
-          </tbody>
-        </table>
-        </center>
-      </>
-    )
-  }
-  
-  export default Search
-  
+export default Search;

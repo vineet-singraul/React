@@ -1,28 +1,20 @@
 {
-  "Employee": [
+  "Emp": [
     {
-      "id": "cbec",
-      "Name": "vineet",
-      "Designation": "Devloper",
-      "City": "Satna",
-      "Salary": "21000"
+      "id": "1",
+      "empno": 100,
+      "empname": "Vineet",
+      "empcity": "Satna",
+      "empdegignation": "Devloper",
+      "empsalary": 200000
     },
     {
-      "id": "d0ef",
-      "Name": "Vineet Singraul",
-      "Designation": "SSC GD",
-      "City": "Jablpur",
-      "Salary": "44460"
-    },
-    {
-      "id": "20e9",
-      "Name": "Vineet Singraul",
-      "Designation": "Devloper",
-      "City": "Jablpur",
-      "Salary": "21000"
-    },
-    {
-      "id": "ed7a"
+      "id": "b67c",
+      "empno": "102",
+      "empname": "Priya",
+      "empcity": "Rewa",
+      "empdegignation": "Docter",
+      "empsalary": "100030"
     }
   ]
 }

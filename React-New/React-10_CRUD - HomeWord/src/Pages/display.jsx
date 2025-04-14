@@ -1,54 +1,55 @@
 import axios from "axios";
-import { useState, useEffect } from "react";
-
+import { useEffect, useState } from "react";
+import Table from 'react-bootstrap/Table';
 const Display = () => {
-  const [myData, setMyData] = useState([]);
 
-  const LoadData = async () => {
-    let api = "http://localhost:3000/Employee";
-    let response = await axios.get(api);
-    setMyData(response.data);
-  };
+    const [myData, SetmyData] = useState([])
 
-  useEffect(() => {
-    LoadData();
-  }, []);
+    const LoadData = async () => {
+        let api = "http://localhost:3000/Emp";
+        let res = await axios.get(api);
+        SetmyData(res.data)
+    }
 
-  const ANS = myData.map((item, index) => {
-    return (
-      <tr key={index}>
-        <td>{item.Name}</td>
-        <td>{item.City}</td>
-        <td>{item.Designation}</td>
-        <td>{item.Salary}</td>
-      </tr>
-    );
-  });
+    useEffect(() => {
+        LoadData()
+    })
 
-  return (
-    <>
-      <center>
-        <h1>This is the Display Page</h1>
-        <br /><br /><hr /><br /><br />
-
-        <table border="1">
-          <thead>
+    const ANS = myData.map((key) => {
+        return (
             <tr>
-              <th>Name</th>
-              <th>City</th>
-              <th>Designation</th>
-              <th>Salary</th>
+                <td>{key.empno}</td>
+                <td>{key.empname}</td>
+                <td>{key.empcity}</td>
+                <td>{key.empdegignation}</td>
+                <td>{key.empsalary}</td>
             </tr>
-          </thead>
-          <tbody>
-            {ANS}
-          </tbody>
-        </table>
-      </center>
+        )
+    })
 
 
-    </>
-  );
-};
+    return (
+        <>
+            <center>
+                <h1>Thise Is Display Comp</h1>
 
-export default Display;
+                <Table striped bordered hover>
+                    <thead>
+                        <tr>
+                            <th>Emp Id</th>
+                            <th>Emp Name</th>
+                            <th>Emp City</th>
+                            <th>Emp Degignation</th>
+                            <th>Emp Salary</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {ANS}
+                    </tbody>
+                </Table>
+            </center>
+        </>
+    )
+}
+
+export default Display
