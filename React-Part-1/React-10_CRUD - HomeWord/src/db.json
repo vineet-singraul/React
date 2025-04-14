@@ -1,0 +1,25 @@
+{
+  "Employee": [
+    {
+      "id": "cbec",
+      "Name": "vineet",
+      "Designation": "Devloper",
+      "City": "Satna",
+      "Salary": "21000"
+    },
+    {
+      "id": "d0cc",
+      "Name": "Mohni Panday vineet",
+      "Designation": "Devloper",
+      "City": "Satna",
+      "Salary": "80000"
+    },
+    {
+      "id": "d0ef",
+      "Name": "Vineet Singraul",
+      "Designation": "SSC GD",
+      "City": "Jablpur",
+      "Salary": "44460"
+    }
+  ]
+}
