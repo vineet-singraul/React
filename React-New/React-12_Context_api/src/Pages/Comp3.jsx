@@ -1,11 +1,10 @@
 import Comp4 from "./Comp4"
 
-const Comp3 = ({user}) => {
+const Comp3 = () => {
     return (
       <>
          <h1>Component 4</h1>
-         <h1>Component 5</h1>
-         <Comp4 user={user}/>
+         <Comp4/>
       </>
     )
   }
