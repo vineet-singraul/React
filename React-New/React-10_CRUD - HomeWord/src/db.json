@@ -1,20 +1,20 @@
 {
-  "Emp": [
+  "emp": [
     {
       "id": "1",
       "empno": 100,
       "empname": "Vineet",
       "empcity": "Satna",
-      "empdegignation": "Devloper",
-      "empsalary": 200000
+      "empdesignation": "Devloper",
+      "empsalary": 45000
     },
     {
-      "id": "b67c",
+      "id": "1d89",
       "empno": "102",
-      "empname": "Priya",
-      "empcity": "Rewa",
-      "empdegignation": "Docter",
-      "empsalary": "100030"
+      "empname": "Anmol",
+      "empcity": "Satna",
+      "empdesignation": "SSC",
+      "empsalary": "700000"
     }
   ]
 }
