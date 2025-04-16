@@ -1,5 +1,5 @@
 import { createContext, useState } from "react"
-import Comp1 from "./Pages/comp1"
+import Comp1 from "./Pages/Cybrom"
 
 const myContext = createContext()
 const App = () => {
