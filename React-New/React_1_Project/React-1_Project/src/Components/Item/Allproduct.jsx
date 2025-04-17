@@ -83,7 +83,6 @@ const Allproduct = () => {
             <div class="card-container">
                 {HomeData}
             </div>
-
         </>
     )
 }
