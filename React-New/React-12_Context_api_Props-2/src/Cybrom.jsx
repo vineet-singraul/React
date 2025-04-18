@@ -1,9 +1,6 @@
 // Cybrom.jsx
 import { useContext } from "react";
 import { myContext } from "./UserContext";
-
-
-
 const Cybrom = () => {
     const { name } = useContext(myContext);
     return (
@@ -12,7 +9,5 @@ const Cybrom = () => {
         </>
     );
 };
-
-
 
 export default Cybrom;
