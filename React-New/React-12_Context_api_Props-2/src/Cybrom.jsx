@@ -4,7 +4,6 @@ import { myContext } from "./UserContext";
 
 
 
-
 const Cybrom = () => {
     const { name } = useContext(myContext);
     return (
