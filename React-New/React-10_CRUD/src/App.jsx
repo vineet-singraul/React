@@ -1,35 +1,29 @@
-import axios from "axios";
-import { useState } from "react";
-
+import { BrowserRouter, Routes , Route } from "react-router-dom"
+import Layout from "./Layout"
+import Home from "./Pages/Home"
+import Insert from "./Pages/Insert"
+import Display from "./Pages/Display"
+import Search from "./Pages/Search"
+import Update from "./Pages/Update"
 const App = () => {
-  const [inp, setInp] = useState({});
-
-  const handleInput = (e) => {
-    const name = e.target.name;
-    const value = e.target.value;
-    setInp((values) => ({ ...values, [name]: value }))
-    console.log(inp);
-  };
-
-  const handleSubmit = async() =>{
-    console.log("data",inp);
-    let api = "http://localhost:3000/Student";
-    let res = await axios.post(api , inp) 
-    alert("Data Succesfull Save : ")
-  }
-
   return (
     <>
       <center>
-        Enter Name : <input type="text" name="name" onChange={handleInput} /><br /><br />
-        Enter City :  <input type="text" name="city" onChange={handleInput} /><br /><br />
-        Enter Numver <input type="text" name="num" onChange={handleInput} /><br /><br />
-        Enter Fees  <input type="text" name="fee" onChange={handleInput} /><br /><br />
-        <button onClick={handleSubmit}>Save</button>
+       <BrowserRouter>
+         <Routes>
+           <Route path="/" element={<Layout/>}>
+             <Route  index element={<Home/>}/>
+             <Route path="home/" element={<Home/>}/>
+             <Route path="insert/" element={<Insert/>}/>
+             <Route path="display/" element={<Display/>}/>
+             <Route path="update/" element={<Update/>}/>
+             <Route path="Search/" element={<Search/>}/>
+           </Route>
+         </Routes>
+       </BrowserRouter>
       </center>
     </>
-  );
-};
-
+  )
+}
 
 export default App
