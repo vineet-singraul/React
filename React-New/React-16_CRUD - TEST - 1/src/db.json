@@ -1,0 +1,20 @@
+{
+  "Emp": [
+    {
+      "id": "Vineet",
+      "EmpId": 100,
+      "name": "Vineet",
+      "designation": "Devloper",
+      "Department": "Front_end",
+      "salary": 30000
+    },
+    {
+      "id": "bf8f",
+      "EmpId": "101",
+      "name": "Riya",
+      "designation": "SSC GD",
+      "Department": "pwd",
+      "salary": "Bhopal"
+    }
+  ]
+}
