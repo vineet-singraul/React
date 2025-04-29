@@ -1,31 +1,23 @@
-import React, { useReducer } from 'react';
+import React from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { changeName } from './nameSlice';
 
 const App = () => {
+  const username = useSelector((state) => state.user.username);
+  const dispatch = useDispatch();
 
-  const myreducer = (state, action) => {
-    switch(action.type) {
-      case 'red':
-        return 'red';
-      case 'green':
-        return 'green';
-      case 'blue':
-        return 'blue';
-      default:
-        return state;
-    }
-  }
-
-  const [color , dispatch] = useReducer(myreducer , 'yellow');
+  const handleButtonClick = () => {
+    dispatch(changeName());
+  };
 
   return (
-    <>
-      <button onClick={() => dispatch({ type: 'red' })}>Red</button>
-      <button onClick={() => dispatch({ type: 'green' })}>Green</button>
-      <button onClick={() => dispatch({ type: 'blue' })}>Blue</button>
-
-      <div style={{ width: "400px", height: "400px", background: color }}></div>
-    </>
+    <div>
+      <h2>Welcome: {username}</h2>
+      <button onClick={handleButtonClick}>
+        Change User
+      </button>
+    </div>
   );
-}
+};
 
 export default App;
