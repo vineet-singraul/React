@@ -25,7 +25,7 @@ const App = () => {
           <button onClick={changeBlack}>Black</button> <br /> <br />
 
           <input type="text" placeholder="Enter color" onChange={(e)=>setGetColor(e.target.value)} value={getColor}/>
-          <button onClick={ColorSet}>Set color</button>
+          <button onClick={ColorSet}>Set Change Color</button>
       </center>
     </>
   )
