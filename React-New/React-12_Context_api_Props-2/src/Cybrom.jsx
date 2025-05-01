@@ -5,7 +5,7 @@ const Cybrom = () => {
     const { name } = useContext(myContext);
     return (
         <>
-            <h1> Welcome To Cybrom! {name}</h1>
+        <h1> Welcome To Cybrom! {name}</h1>
         </>
     );
 };
