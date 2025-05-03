@@ -33,6 +33,7 @@ const App = () => {
             <img src={key.img2} />
             <img src={key.img3} />
             <img src={key.img4} />
+            <img src={key.img4} />
           </div>
 
         </div>
