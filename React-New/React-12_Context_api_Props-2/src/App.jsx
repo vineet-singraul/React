@@ -6,6 +6,7 @@ const App = () => {
     <>
       <h1> Welcome!!! </h1>
       <Cybrom />
+      <Cybrom />
     </>
   );
 };
