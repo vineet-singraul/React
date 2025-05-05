@@ -8,6 +8,9 @@ import Update from "./Pages/Update"
 const App = () => {
   return (
     <>
+
+
+
       <center>
        <BrowserRouter>
          <Routes>
@@ -22,6 +25,10 @@ const App = () => {
          </Routes>
        </BrowserRouter>
       </center>
+
+
+
+      
     </>
   )
 }
