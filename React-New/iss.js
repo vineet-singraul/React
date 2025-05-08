@@ -6,7 +6,4 @@ for (let i = indexToDelete; i < arr.length - 1; i++) {
 arr.pop();
 
 }
-
-// arr.pop();
-
 console.log(arr);
