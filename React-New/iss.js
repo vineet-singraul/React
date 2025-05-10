@@ -7,3 +7,6 @@ arr.pop();
 console.log(arr);
 }
 console.log(arr);
+
+
+
