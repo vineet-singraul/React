@@ -1,17 +1,23 @@
-import Counter from "./counter";
-import { useContext } from "react";
-import { CounterContext } from "./Context";
+import { BrowserRouter, Routes ,Route} from "react-router-dom"
+import Layout from "./Layout"
+import Home from "./Home"
+import Insert from "./Insert"
+import Display from "./Display"
+
 
 const App = () => {
-    const useVal = useContext(CounterContext)
-    console.log(useVal.value);
-    return (
-        <>
-           <center>
-             <h1>Count : {useVal.value}</h1>
-             <Counter/>
-           </center>
-        </>
-    )
+  return(
+    <>
+       <BrowserRouter>
+         <Routes>
+           <Route path="/" element={<Layout/>}>
+              <Route path="home" element={<Home/>}/>
+              <Route path="insert" element={<Insert/>}/>
+              <Route path="display" element={<Display/>}/>
+           </Route>
+         </Routes>
+       </BrowserRouter>
+    </>
+  )
 }
-export default App;
+export default App
