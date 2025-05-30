@@ -14,6 +14,5 @@ export const colorSlice = createSlice({
         }
     },
 });
-
 export default colorSlice.reducer;
 export const {setColorButton , setEnterColor} = colorSlice.actions
