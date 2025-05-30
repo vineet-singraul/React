@@ -57,8 +57,6 @@ const App = () => {
     </>
   )
 }
-
-
 export default App;
 //--------------------- TYPE - 3 External css ---------------- 
 
