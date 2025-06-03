@@ -9,7 +9,9 @@ export const colorSlice = createSlice({
         setColorButton : state =>{
             state.color = 'black'
         },
-        setEnterColor(state , actions){
+
+
+       setEnterColor(state , actions){
             state.color = actions.payload
         }
     },
