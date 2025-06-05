@@ -1,31 +1,33 @@
-import { useState, useMemo } from "react";
+import { useState ,useMemo} from "react"
 
-const App = () => {
-  const [input, setInput] = useState(0);
+const App = ()=>{
+  const [input , setInput] = useState(5)
 
-  // Expensive calculation (pure) – just for example
-  const expensiveCalculation = (num) => {
-    for (let i = 0; i < 1000000000; ++i) {}
-    console.log("Inside the expensive calculation");
-    return num * 2;
-  };
+  const exoensiveFunctions = (num) => {
+      console.log("Inside Expensive Functions :");
+      for(var i=0 ; i<1000000000 ; ++i) {}      
+      return num*2
+  }
 
-  const doubleValue = useMemo(() => expensiveCalculation(input), [input]);
+  const handleIncement = () => {
+      setInput(input+1)
+  }
 
-  const handleIncrement = () => {
-    setInput(prev => prev + 1);
-  };
+  // const dubleExecution = exoensiveFunctions(2)
+  const dubleExecution = useMemo(() => exoensiveFunctions(input), [input])
 
-  return (
+
+  return(
     <>
       <center>
-        <h1>This Is App Component:</h1>
-        <p>Input: {input}</p>
-        <p>Double (Memoized): {doubleValue}</p>
-        <button onClick={handleIncrement}>Increment</button>
+        <h1>App Component : </h1>
+        <button onClick={(e)=>{handleIncement(e.target.value)}}>Increment</button>
+        <br /><br />
+        <h1>Counter Ka : {input}</h1>
+        <br /><br />
+        <h1>Square ka : {dubleExecution}</h1>
       </center>
     </>
-  );
-};
-
+  )
+}
 export default App;
