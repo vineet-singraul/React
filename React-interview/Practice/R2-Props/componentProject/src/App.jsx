@@ -8,7 +8,7 @@ const App = () => {
   }
 
   const Greet = () => {
-    // alert("Hello from App!");
+    // alert("Hello from App!");   
   }
 
   return(
