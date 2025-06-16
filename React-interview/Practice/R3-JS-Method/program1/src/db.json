@@ -1,0 +1,57 @@
+[
+  {
+    "name": "Vineet",
+    "course": "B-Tech",
+    "age": 21
+  },
+  {
+    "name": "Anjali",
+    "course": "BCA",
+    "age": 20
+  },
+  {
+    "name": "Rohit",
+    "course": "MCA",
+    "age": 24
+  },
+  {
+    "name": "Sneha",
+    "course": "B.Sc",
+    "age": 22
+  },
+  {
+    "name": "Amit",
+    "course": "BBA",
+    "age": 23
+  },
+  {
+    "name": "Pooja",
+    "course": "MBA",
+    "age": 25
+  },
+  {
+    "name": "Karan",
+    "course": "B.Com",
+    "age": 22
+  },
+  {
+    "name": "Neha",
+    "course": "M.Com",
+    "age": 24
+  },
+  {
+    "name": "Raj",
+    "course": "BCA",
+    "age": 21
+  },
+  {
+    "name": "Divya",
+    "course": "M.Sc",
+    "age": 23
+  },
+  {
+    "name": "Arjun",
+    "course": "B-Tech",
+    "age": 22
+  }
+]
