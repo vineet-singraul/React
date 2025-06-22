@@ -12,10 +12,6 @@ const App = () => {
   }
 
 
-
-
-
-  
   return(
     <>
       <center>
