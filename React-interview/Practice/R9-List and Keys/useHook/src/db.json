@@ -1,0 +1,70 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Vineet",
+      "city": "Bhopal",
+      "Course": "B-Tech"
+    },
+    {
+      "id": 2,
+      "name": "Aarav",
+      "city": "Indore",
+      "Course": "MBA"
+    },
+    {
+      "id": 3,
+      "name": "Sneha",
+      "city": "Mumbai",
+      "Course": "MCA"
+    },
+    {
+      "id": 4,
+      "name": "Rohit",
+      "city": "Delhi",
+      "Course": "BCA"
+    },
+    {
+      "id": 5,
+      "name": "Priya",
+      "city": "Pune",
+      "Course": "B.Sc"
+    },
+    {
+      "id": 6,
+      "name": "Karan",
+      "city": "Jaipur",
+      "Course": "M-Tech"
+    },
+    {
+      "id": 7,
+      "name": "Anjali",
+      "city": "Lucknow",
+      "Course": "BA"
+    },
+    {
+      "id": 8,
+      "name": "Sahil",
+      "city": "Chandigarh",
+      "Course": "B.Com"
+    },
+    {
+      "id": 9,
+      "name": "Riya",
+      "city": "Nagpur",
+      "Course": "M.Sc"
+    },
+    {
+      "id": 10,
+      "name": "Deepak",
+      "city": "Noida",
+      "Course": "Diploma"
+    },
+    {
+      "id": 11,
+      "name": "Neha",
+      "city": "Ahmedabad",
+      "Course": "PhD"
+    }
+  ]
+}
