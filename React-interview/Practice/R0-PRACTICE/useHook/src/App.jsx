@@ -1,22 +1,22 @@
-import { CounterContext } from "./Context";
-import { useContext } from "react";
-import Counter from "./Counter";
-const App = () => {
-  const useVal = useContext(CounterContext)
-  const col = useVal.color;
-  return (
-    <>
-      <center>
-        <br />
-        <h1>App Component</h1><br />
-        <h1>Count : {useVal.value}</h1><br />
-        <div id="div" style={{background:useVal.color}}>
-           hello
-        </div>
-        <Counter/>
-      </center>
-    </>
-  );
-};
+import { useRef, useState } from "react";
 
+const App = () => {
+
+  const [input, setInput] = useState(6)
+  let val = useRef(0)
+  const handleIncrement = () => {
+     setInput(input + 1)
+     val.current = val.current + 1
+     console.log(val.current);
+  } 
+  return(
+      <center><br />
+         <h1>App Component : </h1><br /><br />
+         <h1>Count by State : {input}</h1> 
+         <h1>Count by useRef: {val.current}</h1>
+         <br /><br />
+         <button onClick={handleIncrement}>Increment</button>
+      </center>
+  )
+}
 export default App;
