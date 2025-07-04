@@ -1,22 +1,36 @@
-import { useRef, useState } from "react";
+import data from "./db.json"; // make sure db.json is in src or imported correctly
 
 const App = () => {
+  const ANS = data.data.map((key, index) => {
+    return (
+      <tr key={index}>
+        <td>{key.name}</td>
+        <td>{key.city}</td>
+        <td>{key.email}</td>
+        <td>{key.designation}</td>
+      </tr>
+    );
+  });
 
-  const [input, setInput] = useState(6)
-  let val = useRef(0)
-  const handleIncrement = () => {
-     setInput(input + 1)
-     val.current = val.current + 1
-     console.log(val.current);
-  } 
-  return(
-      <center><br />
-         <h1>App Component : </h1><br /><br />
-         <h1>Count by State : {input}</h1> 
-         <h1>Count by useRef: {val.current}</h1>
-         <br /><br />
-         <button onClick={handleIncrement}>Increment</button>
-      </center>
-  )
-}
+  return (
+    <center>
+      <br />
+      <h1>App Component :</h1>
+      <br /><br />
+
+      <table border="1" cellPadding="10" cellSpacing="0">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Email</th>
+            <th>Designations</th>
+          </tr>
+        </thead>
+        <tbody>{ANS}</tbody>
+      </table>
+    </center>
+  );
+};
+
 export default App;
