@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Vineet",
+      "city": "Bhopal"
+    },
+    {
+      "id": 2,
+      "name": "Anjali",
+      "city": "Indore"
+    },
+    {
+      "id": 3,
+      "name": "Rohit",
+      "city": "Delhi"
+    },
+    {
+      "id": 4,
+      "name": "Sneha",
+      "city": "Mumbai"
+    },
+    {
+      "id": 5,
+      "name": "Aman",
+      "city": "Lucknow"
+    },
+    {
+      "id": 6,
+      "name": "Priya",
+      "city": "Jaipur"
+    },
+    {
+      "id": 7,
+      "name": "Karan",
+      "city": "Chennai"
+    },
+    {
+      "id": 8,
+      "name": "Meera",
+      "city": "Pune"
+    },
+    {
+      "id": 9,
+      "name": "Sahil",
+      "city": "Hyderabad"
+    },
+    {
+      "id": 10,
+      "name": "Neha",
+      "city": "Ahmedabad"
+    }
+  ]
+}

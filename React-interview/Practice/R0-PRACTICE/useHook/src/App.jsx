@@ -1,36 +1,27 @@
-import data from "./db.json"; // make sure db.json is in src or imported correctly
-
+import { useContext, useRef, useState } from "react";
+import { CounterContext } from "./Context";
+import Counter from "./Counter";
 const App = () => {
-  const ANS = data.data.map((key, index) => {
-    return (
-      <tr key={index}>
-        <td>{key.name}</td>
-        <td>{key.city}</td>
-        <td>{key.email}</td>
-        <td>{key.designation}</td>
-      </tr>
-    );
-  });
-
+  const useVal = useContext(CounterContext)
+  const [incre,setIncre] = useState(1)
+  let val = useRef(0)
+  const handlePlush = () => {
+    setIncre(incre+1)
+    // console.log(val)
+    val.current = val.current + 1
+    console.log(val.current)
+  }
   return (
     <center>
-      <br />
-      <h1>App Component :</h1>
-      <br /><br />
-
-      <table border="1" cellPadding="10" cellSpacing="0">
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>City</th>
-            <th>Email</th>
-            <th>Designations</th>
-          </tr>
-        </thead>
-        <tbody>{ANS}</tbody>
-      </table>
+      <br /><h1>App Component</h1><br />
+      <h1>Couont Is : {useVal.values}</h1>
+      <Counter/>
+      <hr /><br />
+      <h1>Count Is {incre}</h1>
+      <h1>Count using Ref Is {val.current}</h1>
+      <button onClick={handlePlush}>+</button>
     </center>
   );
-};
+}
 
 export default App;
