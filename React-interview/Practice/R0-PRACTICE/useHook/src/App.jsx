@@ -1,27 +1,29 @@
-import { useContext, useRef, useState } from "react";
-import { CounterContext } from "./Context";
-import Counter from "./Counter";
+import { useState } from "react";
+
 const App = () => {
-  const useVal = useContext(CounterContext)
-  const [incre,setIncre] = useState(1)
-  let val = useRef(0)
-  const handlePlush = () => {
-    setIncre(incre+1)
-    // console.log(val)
-    val.current = val.current + 1
-    console.log(val.current)
+  const [val, setValue] = useState(4)
+  // const expensiveCalculation = ()=> {
+  //   let j = 2
+  //   for (var i = 0; i < 10000000; i++) { }
+  //   return j = i + j
+  // }
+  const expensiveFunction = () => {
+    let j = 1
+    for (var i = 1; i < 1000000000; ++i) { }
+    console.log("Expensive function called");
+    return j = i + j
+  };
+  const duble = expensiveFunction()
+  const handleClick = () => {
+    setValue(val + 1)
   }
   return (
     <center>
       <br /><h1>App Component</h1><br />
-      <h1>Couont Is : {useVal.values}</h1>
-      <Counter/>
-      <hr /><br />
-      <h1>Count Is {incre}</h1>
-      <h1>Count using Ref Is {val.current}</h1>
-      <button onClick={handlePlush}>+</button>
+      <h1>Expensive functions : {duble}</h1>
+      <h1>Count Is : {val}</h1>
+      <button onClick={handleClick}>Increment</button>
     </center>
   );
 }
-
 export default App;
